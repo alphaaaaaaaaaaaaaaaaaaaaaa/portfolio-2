@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial scale =1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b31a072eb3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo/IAN EDIT 1.png" class="logo">
+        <ul id="sidemenu">
+
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Mechanical Engineering Student</p>
+        <h1>Hi, I'm <span>Ian</span> </h1>
+      </div>
+    </div>
+   </div> 
+
+
+
+    <!---------------about---------------------------->
+
+   <div id="about">
+    <div class="container">
+      <div class="row">
+        <div id="about-col-1">
+          <img src="" alt="">
+        </div>
+
+        <div id="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>A goal-oriented mechanical engineering student who believes in continually learning. I am both open minded and a critical thinker allowing for new ideas and creativity while making good judgement and decisions on the same. Interested in machines, automation of systems and integration of programming in the mechanical engineering sector</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience') ">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>SolidWorks</span><br>3D modelling</li>
+              <li><span>Autocad</span><br>2d drafting <br>Process flow diagrams <br>3D modelling <br></li>
+              <li><span>Software Solutions</span><br>Basic html, css,JS and Python</HTml></li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>April 2024- Now </span><br>Cummins Car & General <br>Intern <br>•	Generator maintenance and servicing <br>• Engine overhaul of generators and heavy duty machinery <br>• Installation and commissioning of generators of various KVA ranging from 500 KVA to 3000 KVA <br>• Site survey for purpose of generator installation <br>• Troubleshooting generator problems
+                </li>
+              <li><span>May 2023</span><br>Butonge Engineering Systems <br>Intern <br>• Gas detector Installation</li>
+
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2022 - Expected completion 2027</span><br>Bachelor of Engineering Mechanical Engineering</li>
+              <li><span>2018-2022</span><br>Machakos School <br>KCSE Certificate</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+
+   <!-- ------------services-----------  -->
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-gear"></i>
+          <h2>Autocad Design</h2>
+          <p>2D diagrams, </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-cube"></i>
+          <h2>SolidWorks Design</h2>
+          <p>3D models</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Company Websites, portfolios</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+
+    </div>
+   </div>
+
+
+   <!-- -----------------portfolio---------------------- -->
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+
+        <div class="work">
+          <img src="logo/service.jpg">
+          <div class="layer">
+            <h3>Generators</h3>
+            <p>Servicing and maintenance</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="logo/portfolio.PNG">
+          <div class="layer">
+            <h3>Portfolio Website</h3>
+            <p>Creating and Managing personal & business websites </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="logo/radisson.PNG">
+          <div class="layer">
+            <h3>AutoCAD drawings</h3>
+            <p>2D and 3D AutoCAD diagrams</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!-- ---------------------contact------------------ -->
+   <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> muirusian9@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +254799511000</p>
+
+          <div class="social-icons">
+
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+
+          </div>
+
+          <!-- ----add cv---- -->
+          <a href="" download class="btn btn2">Download Resume</a>
+
+        </div>
+
+
+        <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        </div>
+      </div>
+    </div>
+   </div>
+   
+
+
+
+
+
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+   </script>
+
+   <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+
+
+   </script>
+
+<script>
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbyvHSt8WqnP0OKZEEZkaeKB2G8hnzXHu12_ZyddfpQhdbc5uCMngLiG_RPtl5eGbVfnQg/exec>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+
+
+</html>
