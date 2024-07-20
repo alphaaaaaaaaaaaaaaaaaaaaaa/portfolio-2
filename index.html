@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial scale =1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b31a072eb3.js" crossorigin="anonymous"></script>
@@ -53,17 +53,17 @@
             <p class="tab-links" onclick="opentab('Education')">Education</p>
 
           </div>
-          <div class="tab-contents active-tab" id="skills">
+          <div class="tab-contents active-tab " id="Skills">
             <ul>
-              <li><span>SolidWorks</span><br>3D modelling</li>
-              <li><span>Autocad</span><br>2d drafting <br>Process flow diagrams <br>3D modelling <br></li>
-              <li><span>Software Solutions</span><br>Basic html, css,JS and Python</HTml></li>
+              <li><span>SolidWorks</span><br>• 3D modelling</li>
+              <li><span>Autocad</span><br>• 2D drafting and annotation <br>• Process flow diagrams <br>• 3D modelling <br></li>
+              <li><span>Software Solutions</span><br>• Responsive web design <br>• Website management</HTml></li>
             </ul>
           </div>
 
           <div class="tab-contents" id="Experience">
             <ul>
-              <li><span>April 2024- Now </span><br>Cummins Car & General <br>Intern <br>•	Generator maintenance and servicing <br>• Engine overhaul of generators and heavy duty machinery <br>• Installation and commissioning of generators of various KVA ranging from 500 KVA to 3000 KVA <br>• Site survey for purpose of generator installation <br>• Troubleshooting generator problems
+              <li><span>April 2024- July 2024 </span><br>Cummins Car & General <br>Intern <br>•	Generator maintenance and servicing under supervision of trained technicians <br>• Engine overhaul under the guidance of Cummins engineers <br>• Installation and commissioning of generators of various KVA ranging from 17 KVA to 3000 KVA <br>• Site survey for purpose of generator installation  <br>• Generator breakdown analysis
                 </li>
               <li><span>May 2023</span><br>Butonge Engineering Systems <br>Intern <br>• Gas detector Installation</li>
 
@@ -102,9 +102,15 @@
           <a href="#">Learn more</a>
         </div>
         <div>
+          <i class="fa-solid fa-bolt"></i>
+          <h2>Generator servicing</h2>
+          <p>Changing of air filters, fuel filters, lube filters and engine coolant</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
           <i class="fa-solid fa-code"></i>
           <h2>Web Design</h2>
-          <p>Company Websites, portfolios</p>
+          <p>Company Websites, school websites,Personal portfolios</p>
           <a href="#">Learn more</a>
         </div>
       </div>
@@ -162,9 +168,9 @@
 
           <div class="social-icons">
 
-            <a href="https://www.facebook.com/profile.php?id=100094156661218"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/ian-muiruri-126b23302/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100094156661218" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/ian-muiruri-126b23302/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 
           </div>
 
@@ -187,11 +193,10 @@
    </div>
    
 
-
-
-
-
-   <script>
+    
+    
+    
+    <script>
 
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents= document.getElementsByClassName("tab-contents");
@@ -206,6 +211,7 @@
       document.getElementById(tabname).classList.add("active-tab");
 
     }
+    
 
 
    </script>
